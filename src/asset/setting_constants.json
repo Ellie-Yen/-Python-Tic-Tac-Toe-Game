@@ -1,0 +1,13 @@
+{
+  "COMPUTER": "computer",
+  "USER": "user",
+  "DRAW": "draw",
+  "PLAYER_MAP": {
+    "1": "computer",
+    "2": "user"
+  },
+  "POINT_MAP": {
+    "computer": 1,
+    "user": 2
+  }
+}

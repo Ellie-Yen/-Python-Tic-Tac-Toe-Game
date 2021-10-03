@@ -1,0 +1,40 @@
+{
+  "welcome": "\n+++++++++++++++++++++++++\nWelcome to tic tac toe game !\nYou can type [ leave ]\nto leave at anytime.\n+++++++++++++++++++++++++\n",
+  "level": {
+    "question": "\nPlease choose game level\n>> type : [ easy / mid / master ]\n",
+    "reply": "\nYou choose [ {0} ] level\n"
+  },
+  "chess": {
+    "question": "\nWhat chess do you want to use?\n>> type: [ one alphabet ]\n",
+    "reply": "\nChess of players:\nYou: [ {0} ],\nMe: [ {1} ]\n"
+  }, 
+  "order": {
+    "question": "\nWould you wanna start first?\n>> type : [ y / n ]\n",
+    "reply": {
+      "y": "\nYou start first! Let's begin!\n",
+      "n": "\nTHX, you're a nice guy! I'll start first!\n"
+    }
+  },
+  "computer_turn": {
+    "question": "\nNow it's my turn!\nWhere should I put {0}?\nLet me think ...\n",
+    "reply": "\nI'm done! I put {0} at ({1}, {2}),\n\n{3}\n"
+  },
+  "user_turn": {
+    "question": "\nIt's your turn!\nWhere do you wanna put {0}?\n(0 <= row, col <= 2\nand a comma between them)\n>> type : [ row, col ]\n",
+    "reply": "\nYou put {0} at ({1}, {2}),\n\n{3}\n"
+  },
+  "ask_play_again": {
+    "question": "\nPlay again?\n>> type : [ play / leave ]\n"
+  },
+  "error": {
+    "input": "\nSorry, invalid input: ' {0} ' please type again!\n{1}\n",
+    "position": "\nSorry, ({0}, {1}) is occupied!\nplease type again!\n>> type : [ row, column ]\n"
+  },
+  "winner": {
+    "computer": "\n_______Good  Game!_______\n\n{0}\n_________________________\n",
+    "user": "\n____Congrats! you won____\n\n{0}\n_________________________\n",
+    "draw": "\n_________A draw!_________\n\n{0}\n_________________________\n"
+  },
+  "show_record": "\n=========Record=========\n\nTotal: {0}\nYou: {1} ({2:.2%})\nComputer: {3} ({4:.2%})\nDraw: {5} ({6:.2%})\n=========================\n",
+  "leave": "\n+++++++++++++++++++++++++\nEnd the game\nTHX for playing !!!\n+++++++++++++++++++++++++"
+}
